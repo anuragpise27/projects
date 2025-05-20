@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    background-image: url("../images/upcoming-bg.png")  ;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+  
+    text-align: center;
+    padding: 20px;
+   
+  }
+  .back{
+    text-decoration: none;
+    border-radius: 1px;
+    margin-right: 900px;
+  }
+  #movie-container {
+    display: flex;
+    color: white;
+    background: transparent;
+    text-decoration: none;
+    margin-top: 30px;
+  
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .movie {
+    
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+  }
+  .movie img {
+    width: 100%;
+    height: fit-content;
+    border-radius: 8px;
+  }
+  #search-bar {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+  }
+  #search-button {
+    padding: 9px 19px;
+    border: none;
+    font-size: small;
+    border-radius: 100px;
+    background-color:goldenrod;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  
+  
