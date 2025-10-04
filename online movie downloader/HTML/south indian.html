@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APYmovies - Movie Download Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--- google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fontawesome Link for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <script src="js/search.js" async defer></script>
+    <!-- navbar starts -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href=""><img src="images/logo.png" alt="" /></a>
+        </div>
+        <ul class="nav-list">
+          <div class="logo">
+            <a href=""><img src="images/logo.png" alt=""></a>
+            <button class="close"><i class="fa-solid fa-xmark"></i></button>
+            
+          </div>
+          <div class="search-box">
+           <a href="search.html" class="searchbtn" style="color: white;">
+              <i class="fa-solid fa-magnifying-glass fa-2x "></i>
+            </a>
+             
+
+
+          </div>
+
+          <input type="text" id="search-bar" placeholder="Search for a movie...">
+          <button id="search-button" onclick="searchMovies()">
+        
+        
+        
+           
+             
+                 <i class="fa-solid fa-magnifying-glass fa-2x  "></i>
+            
+          </button>
+          
+          <li class="home"><a href="index.html">HOME</a></li>
+          <li><a href="movies.html">MOVIES</a></li>
+          <li><a href="tvshows.html">TV SHOWS</a></li>
+          <li><a href="gnere.html">GENRE</a></li>
+          
+        
+        </ul>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+<section class="top-movie same">
+      <div class="header">
+        
+        <h4>South Movies</h4>
+      </div>
+      <div class="top-movie-main">
+       
+        <div class="movie-card">
+          <ul class="wrapper">
+
+            <!-- Movie: Maharaja -->
+            <li class="card">
+                <div class="img">
+                  <a href="movie details/maharaja.html"><img src="images/maharaja.jpg" alt="" /></a>
+                </div>
+                <div class="title">
+                  <a href="movie details/maharaja.html"><h4>Maharaja</h4></a>
+                  <span>2024</span>
+                </div>
+                <div class="footer">
+                  <span>HD</span>
+                  <div class="time-rating">
+                    <span><i class="fa-regular fa-clock"></i> 2.21 hr</span>
+                    <span><i class="fa-solid fa-star"></i> 8.4</span>
+                  </div>
+                </div>
+              </li>
+
+             
+                
+              <!-- Movie: Drishyam 2 -->
+        <li class="card">
+            <div class="img">
+              <a href="movie details/drishayam2.html"><img src="images/Drishyam2.jpg" alt="Drishyam 2" /></a>
+            </div>
+            <div class="title">
+              <a href="movie details/drishayam2.html"><h4>Drishyam 2</h4></a>
+              <span>2021</span>
+            </div>
+            <div class="footer">
+              <span>HD</span>
+              <div class="time-rating">
+                <span><i class="fa-regular fa-clock"></i> 2.32 hr</span>
+                <span><i class="fa-solid fa-star"></i> 8.4</span>
+              </div>
+            </div>
+          </li>
+           
+
+          <!-- Movie: Soorarai Pottru -->
+          <li class="card">
+            <div class="img">
+              <a href="movie details/Soorarai Pottru.html"><img src="images/Soorarai Pottru.jpg" alt="Soorarai Pottru" /></a>
+            </div>
+            <div class="title">
+              <a href="movie details/Soorarai Pottru.html"><h4>Soorarai Pottru</h4></a>
+              <span>2020</span>
+            </div>
+            <div class="footer">
+              <span>HD</span>
+              <div class="time-rating">
+                <span><i class="fa-regular fa-clock"></i> 2.33 hr</span>
+                <span><i class="fa-solid fa-star"></i> 8.7</span>
+              </div>
+            </div>
+          </li>
+          
+  
+          <!-- Movie: Baahubali 2 -->
+          <li class="card">
+            <div class="img">
+              <a href="movie details/Baahubali 2.html"><img src="images/Baahubali 2 (2017).jpg" alt="Baahubali 2" /></a>
+            </div>
+            <div class="title">
+              <a href="movie details/Baahubali 2.html"><h4>Baahubali 2: The Conclusion</h4></a>
+              <span>2017</span>
+            </div>
+            <div class="footer">
+              <span>HD</span>
+              <div class="time-rating">
+                <span><i class="fa-regular fa-clock"></i> 2.47 hr</span>
+                <span><i class="fa-solid fa-star"></i> 8.2</span>
+              </div>
+            </div>
+          </li>
+          <!-- Movie: Raatchasan -->
+        <li class="card">
+          <div class="img">
+            <a href="movie details/raatchasan.html"><img src="images/Raatchasan.jpg" alt="Raatchasan" /></a>
+          </div>
+          <div class="title">
+            <a href="movie details/raatchasan.html"><h4>Raatchasan</h4></a>
+            <span>2018</span>
+          </div>
+          <div class="footer">
+            <span>HD</span>
+            <div class="time-rating">
+              <span><i class="fa-regular fa-clock"></i> 2.26 hr</span>
+              <span><i class="fa-solid fa-star"></i> 8.3</span>
+            </div>
+          </div>
+        </li> 
+  
+         
+  
+          
+
+          <li class="card">
+            <div class="img">
+              <a href="movie details/bahubali.html"><img src="images/Baahubali.jpg" alt="Baahubali: The Beginning" /></a>
+            </div>
+            <div class="title">
+              <a href="movie details/bahubali.html"><h4>Baahubali: The Beginning</h4></a>
+              <span>2015</span>
+            </div>
+            <div class="footer">
+              <span>HD</span>
+              <div class="time-rating">
+                <span><i class="fa-regular fa-clock"></i> 2.39 hr</span>
+                <span><i class="fa-solid fa-star"></i> 8.0</span>
+              </div>
+            </div>
+          </li>
+          
+          
+  
+ 
+  
+  <!-- Movie: Vikram Vedha -->
+  <li class="card">
+    <div class="img">
+      <a href="movie details/vikram vedha.html"><img src="images/Vikram Vedha.jpg" alt="Vikram Vedha" /></a>
+    </div>
+    <div class="title">
+      <a href="movie details/vikram vedha.html"><h4>Vikram Vedha</h4></a>
+      <span>2017</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.27 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.2</span>
+      </div>
+    </div>
+  </li>
+  <!-- Movie: 24 -->
+  <li class="card">
+    <div class="img">
+      <a href="movie details/"><img src="images/24.jpg" alt="24" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>24</h4></a>
+      <span>2016</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.44 hr</span>
+        <span><i class="fa-solid fa-star"></i> 7.8</span>
+      </div>
+    </div>
+  </li>
+
+   <!-- Movie: Kantara -->
+   <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Kantara.jpg" alt="Kantara" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Kantara</h4></a>
+      <span>2022</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.28 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.2</span>
+      </div>
+    </div>
+  </li>
+  <!-- Movie: 1: Nenokkadine -->
+<li class="card">
+  <div class="img">
+    <a href="movie-detail.html"><img src="images/NENOKKADINE.jpg" alt="1: Nenokkadine" /></a>
+  </div>
+  <div class="title">
+    <a href="movie-detail.html"><h4>1: Nenokkadine</h4></a>
+    <span>2014</span>
+  </div>
+  <div class="footer">
+    <span>HD</span>
+    <div class="time-rating">
+      <span><i class="fa-regular fa-clock"></i> 2.50 hr</span>
+      <span><i class="fa-solid fa-star"></i> 8.0</span>
+    </div>
+  </div>
+</li>
+  
+  <!-- Movie: Jersey -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Jersey.jpg" alt="Jersey" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Jersey</h4></a>
+      <span>2019</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.37 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.5</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: Manjummel Boys -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Manjummel Boys.jpg" alt="Manjummel Boys" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Manjummel Boys</h4></a>
+      <span>2024</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.15 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.2</span>
+      </div>
+    </div>
+  </li>
+  
+  
+  
+  
+  
+  
+  
+  <!-- Movie: RRR -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/RRR.jpg" alt="RRR" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>RRR</h4></a>
+      <span>2022</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 3.07 hr</span>
+        <span><i class="fa-solid fa-star"></i> 7.8</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: Vishwaroopam -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Vishwaroopam.jpg" alt="Vishwaroopam" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Vishwaroopam</h4></a>
+      <span>2013</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.28 hr</span>
+        <span><i class="fa-solid fa-star"></i> 7.9</span>
+      </div>
+    </div>
+  </li>
+
+  <!-- Movie: Eega -->
+<li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Eega.jpg" alt="Eega" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Eega</h4></a>
+      <span>2012</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.25 hr</span>
+        <span><i class="fa-solid fa-star"></i> 7.7</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: K.G.F: Chapter 2 -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/K.G.F Chapter 2.jpg" alt="K.G.F: Chapter 2" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>K.G.F: Chapter 2</h4></a>
+      <span>2022</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.46 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.2</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: Anniyan -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Anniyan.jpg" alt="Anniyan" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Anniyan</h4></a>
+      <span>2005</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 3.01 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.3</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: Vikram -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Vikram.jpg" alt="Vikram" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Vikram</h4></a>
+      <span>2022</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.55 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.3</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: Vedam -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Vedam.jpg" alt="Vedam" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Vedam</h4></a>
+      <span>2010</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.15 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.1</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: 2018 -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/2018.jpg" alt="2018" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>2018</h4></a>
+      <span>2023</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.30 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.3</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: I -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/I.jpg" alt="I" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>I</h4></a>
+      <span>2015</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 3.08 hr</span>
+        <span><i class="fa-solid fa-star"></i> 7.4</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: Sita Ramam -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Sita Ramam.jpg" alt="Sita Ramam" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Sita Ramam</h4></a>
+      <span>2022</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.43 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.5</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: Master -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Master.jpg" alt="Master" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Master</h4></a>
+      <span>2021</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.59 hr</span>
+        <span><i class="fa-solid fa-star"></i> 7.4</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: RangiTaranga -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/RangiTaranga.jpg" alt="RangiTaranga" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>RangiTaranga</h4></a>
+      <span>2015</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.29 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.1</span>
+      </div>
+    </div>
+  </li>
+
+  <!-- Movie: Theeran Adhigaram Ondru -->
+<li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Theeran Adhigaram Ondru.jpg" alt="Theeran Adhigaram Ondru" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Theeran Adhigaram Ondru</h4></a>
+      <span>2017</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.37 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.2</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: Leader -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Leader.jpg" alt="Leader" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Leader</h4></a>
+      <span>2010</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.47 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.0</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: Thupparivaalan -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Thupparivaalan.jpg" alt="Thupparivaalan" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Thupparivaalan</h4></a>
+      <span>2017</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.31 hr</span>
+        <span><i class="fa-solid fa-star"></i> 7.5</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: K.G.F: Chapter 1 -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/K.G.F Chapter 1.jpg" alt="K.G.F: Chapter 1" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>K.G.F: Chapter 1</h4></a>
+      <span>2018</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.34 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.2</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: Lucky Bhaskar -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Lucky Baskhar.jpg" alt="Lucky Bhaskar" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Lucky Bhaskar</h4></a>
+      <span>2024</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.28 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.0</span>
+      </div>
+    </div>
+  </li>
+  
+  
+  <!-- Movie: Magadheera -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Magadheera.jpg" alt="Magadheera" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Magadheera</h4></a>
+      <span>2009</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.46 hr</span>
+        <span><i class="fa-solid fa-star"></i> 7.7</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: Pushpa: The Rise - Part 1 -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Pushpa The Rise - Part 1.jpg" alt="Pushpa: The Rise - Part 1" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Pushpa: The Rise - Part 1</h4></a>
+      <span>2021</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.59 hr</span>
+        <span><i class="fa-solid fa-star"></i> 7.6</span>
+      </div>
+    </div>
+  </li>
+  
+  
+  
+  <!-- Movie: Pushpa: The Rule - Part 2 -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/pushpa 2.jpeg" alt="Pushpa: The Rule - Part 2" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Pushpa: The Rule - Part 2</h4></a>
+      <span>2024</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 3.21 hr</span>
+        <span><i class="fa-solid fa-star"></i> 6.3</span>
+      </div>
+    </div>
+  </li>
+  
+  
+  
+  <!-- Movie: Aavesham -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Aavesham.jpeg" alt="Aavesham" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Aavesham</h4></a>
+      <span>2024</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.35 hr</span>
+        <span><i class="fa-solid fa-star"></i> 7.8</span>
+      </div>
+    </div>
+  </li>
+  
+  
+  
+  <!-- Movie: Race Gurram -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Race Gurram.jpeg" alt="Race Gurram" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Race Gurram</h4></a>
+      <span>2014</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.43 hr</span>
+        <span><i class="fa-solid fa-star"></i> 7.3</span>
+      </div>
+    </div>
+  </li>
+  
+  
+  
+  <!-- Movie: Super Deluxe -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Super Deluxe.jpeg" alt="Super Deluxe" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Super Deluxe</h4></a>
+      <span>2019</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.56 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.2</span>
+      </div>
+    </div>
+  </li>
+  
+  
+  
+  <!-- Movie: Dhuruvangal Pathinaaru -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Dhuruvangal Pathinaaru.jpeg" alt="Dhuruvangal Pathinaaru" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Dhuruvangal Pathinaaru</h4></a>
+      <span>2016</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 1.45 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.2</span>
+      </div>
+    </div>
+  </li>
+  
+  <!-- Movie: Leo -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Leo.jpeg" alt="Leo" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Leo</h4></a>
+      <span>2023</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.44 hr</span>
+        <span><i class="fa-solid fa-star"></i> 7.2</span>
+      </div>
+    </div>
+  </li>
+  
+ 
+  
+  <!-- Movie: Thuppakki -->
+<li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Thuppakki.jpeg" alt="Thuppakki" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Thuppakki</h4></a>
+      <span>2012</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.45 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.1</span>
+      </div>
+    </div>
+  </li>
+  <!-- Movie: Drishyam -->
+ <li class="card">
+  <div class="img">
+    <a href="movie-detail.html"><img src="images/Drishyam.jpg" alt="Drishyam" /></a>
+  </div>
+  <div class="title">
+    <a href="movie-detail.html"><h4>Drishyam</h4></a>
+    <span>2013</span>
+  </div>
+  <div class="footer">
+    <span>HD</span>
+    <div class="time-rating">
+      <span><i class="fa-regular fa-clock"></i> 2.40 hr</span>
+      <span><i class="fa-solid fa-star"></i> 8.3</span>
+    </div>
+  </div>
+</li>
+<!-- Movie: Bombay -->
+<li class="card">
+  <div class="img">
+    <a href="movie-detail.html"><img src="images/Bombay.jpg" alt="Bombay" /></a>
+  </div>
+  <div class="title">
+    <a href="movie-detail.html"><h4>Bombay</h4></a>
+    <span>1995</span>
+  </div>
+  <div class="footer">
+    <span>HD</span>
+    <div class="time-rating">
+      <span><i class="fa-regular fa-clock"></i> 2.10 hr</span>
+      <span><i class="fa-solid fa-star"></i> 8.1</span>
+    </div>
+  </div>
+</li>
+  <!-- Movie: Karnan -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Karnan.jpeg" alt="Karnan" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Karnan</h4></a>
+      <span>2021</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.38 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.0</span>
+      </div>
+    </div>
+  </li>
+  
+  
+   <!-- Movie: 777Charlie -->
+   <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/777Charlie.jpg"  /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>777 Charlie</h4></a>
+      <span>2024</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.21 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.4</span>
+      </div>
+    </div>
+  </li>
+  <!-- Movie: Kishkindha Kaandam -->
+  <li class="card">
+    <div class="img">
+      <a href="movie-detail.html"><img src="images/Kishkindha Kaandam.jpg" alt="Kishkindha Kaandam" /></a>
+    </div>
+    <div class="title">
+      <a href="movie-detail.html"><h4>Kishkindha Kaandam</h4></a>
+      <span>2024</span>
+    </div>
+    <div class="footer">
+      <span>HD</span>
+      <div class="time-rating">
+        <span><i class="fa-regular fa-clock"></i> 2.13 hr</span>
+        <span><i class="fa-solid fa-star"></i> 8.0</span>
+      </div>
+    </div>
+  </li>
+   
+
+  <!-- Movie: Arya -->
+<li class="card">
+  <div class="img">
+    <a href="movie-detail.html"><img src="images/Arya.jpeg" alt="Arya" /></a>
+  </div>
+  <div class="title">
+    <a href="movie-detail.html"><h4>Arya</h4></a>
+    <span>2004</span>
+  </div>
+  <div class="footer">
+    <span>HD</span>
+    <div class="time-rating">
+      <span><i class="fa-regular fa-clock"></i> 2.31 hr</span>
+      <span><i class="fa-solid fa-star"></i> 7.8</span>
+    </div>
+  </div>
+</li>
+
+   
+ 
+<!-- Movie: Chatrapathi -->
+<li class="card">
+  <div class="img">
+    <a href="movie-detail.html"><img src="images/Chatrapathi.jpeg" alt="Chatrapathi" /></a>
+  </div>
+  <div class="title">
+    <a href="movie-detail.html"><h4>Chatrapathi</h4></a>
+    <span>2005</span>
+  </div>
+  <div class="footer">
+    <span>HD</span>
+    <div class="time-rating">
+      <span><i class="fa-regular fa-clock"></i> 2.38 hr</span>
+      <span><i class="fa-solid fa-star"></i> 7.6</span>
+    </div>
+  </div>
+</li>
